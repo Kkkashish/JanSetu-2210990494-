@@ -1,0 +1,21 @@
+/* CLEAN PROFESSIONAL HIGHLIGHT (NO ZOOM) */
+@keyframes priorityGlow {
+  0% {
+    box-shadow: 0 0 0px rgba(239, 68, 68, 0.0);
+    background-color: transparent;
+  }
+
+  50% {
+    box-shadow: 0 0 10px rgba(239, 68, 68, 0.25);
+    background-color: rgba(239, 68, 68, 0.05);
+  }
+
+  100% {
+    box-shadow: 0 0 0px rgba(239, 68, 68, 0.0);
+    background-color: transparent;
+  }
+}
+
+.priority-highlight {
+  animation: priorityGlow 2.8s ease-in-out infinite;
+}
